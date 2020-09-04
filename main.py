@@ -53,7 +53,6 @@ def command():
 
         except Exception as e:
             speak("Can you repeat that?")
-            query = None
             command()
 
     return query
